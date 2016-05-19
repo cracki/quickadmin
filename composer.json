@@ -18,6 +18,7 @@
     "intervention/image": "^2.3",
     "yajra/laravel-datatables-oracle": "~6.0",
     "bigsinoos/j-eloquent" : "dev-master"
+
   },
   "classmap": [
     "src/Controllers",
