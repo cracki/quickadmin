@@ -29,5 +29,6 @@
     "psr-4": {
       "Laraveldaily\\Quickadmin\\": "src/"
     }
-  }
+  },
+  "minimum-stability": "stable"
 }
