@@ -76,10 +76,10 @@ class QuickAdminInstall extends Command
     public function createRole()
     {
         Role::create([
-            'title' => 'Administrator'
+            'title' => 'مدیرکل'
         ]);
         Role::create([
-            'title' => 'User'
+            'title' => 'کاربر'
         ]);
     }
 
@@ -104,12 +104,12 @@ class QuickAdminInstall extends Command
         Menu::insert([
             [
                 'name'      => 'User',
-                'title'     => 'User',
+                'title'     => 'کاربران',
                 'menu_type' => 0
             ],
             [
                 'name'      => 'Role',
-                'title'     => 'Role',
+                'title'     => 'دسترسی ها',
                 'menu_type' => 0
             ]
         ]);

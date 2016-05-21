@@ -46,7 +46,7 @@
                             <a href="#">
                                 <i class="fa {{ $menu->icon }}"></i>
                                 <span class="title">{{ $menu->title }}</span>
-                                <span class="fa arrow"></span>
+                                <span class="fa fa-angle-left "></span>
                             </a>
                             <ul class="sub-menu">
                                 @foreach($menu['children'] as $child)

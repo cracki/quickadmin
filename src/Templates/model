@@ -10,6 +10,8 @@ $SOFT_DELETE_CALL$
 
 class $CLASS$ extends Model {
 
+    use \Bigsinoos\JEloquent\PersianDateTrait;
+
     $SOFT_DELETE_USE$
 
     $SOFT_DELETE_DATES$

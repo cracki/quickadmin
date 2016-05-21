@@ -42,7 +42,7 @@ return [
     'users-edit-btnupdate'                  => 'به روز رسانی',
 
     // users-index
-    'users-index-add_new'                   => 'جدیئ',
+    'users-index-add_new'                   => 'جدید',
     'users-index-users_list'                => 'لیست کاربران',
     'users-index-name'                      => 'نام',
     'users-index-edit'                      => 'ویرایش',

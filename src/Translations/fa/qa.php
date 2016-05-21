@@ -17,7 +17,7 @@ return [
   'menus-createCrud-crud_title' => 'عنوان CRUD',
   'menus-createCrud-crud_title_placeholder' => 'عنوان در منو',
   'menus-createCrud-roles' => 'دسترسی ها',
-  'menus-createCrud-soft_delete' => 'soft delete?',
+  'menus-createCrud-soft_delete' => 'امکان حذف؟',
   'menus-createCrud-icon' => 'Icon (font-awesome)',
   'menus-createCrud-icon_placeholder' => 'Font awesome',
   'menus-createCrud-add_fields' => 'اضافه کردن گزینه',

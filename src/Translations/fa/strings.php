@@ -14,6 +14,7 @@ return [
   'required' => 'لازم است',
   'required_unique' => 'باید یکتا باشد',
   'default_unchecked' => 'انتخاب نشده',
-  'default_checked' => 'انتخاب شده'  
-  
+  'default_checked' => 'انتخاب شده',
+  'please_select' => 'انتخاب کنید'
+
 ];

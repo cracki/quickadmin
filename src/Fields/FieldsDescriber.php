@@ -10,18 +10,18 @@ class FieldsDescriber
     public static function types()
     {
         return [
-            'text'         => 'Text field',
-            'email'        => 'Email field',
-            'textarea'     => 'Long text field',
-            'radio'        => 'Radio',
-            'checkbox'     => 'Checkbox',
-            'date'         => 'Date picker',
-            'datetime'     => 'Date and time picker',
-            'relationship' => 'Relationship',
-            'file'         => 'File field',
-            'photo'        => 'Photo field',
-            'password'     => 'Password field (hashed)',
-            'money'        => 'Money',
+            'text'         => 'متن',
+            'email'        => 'ایمیل',
+            'textarea'     => 'متن طولانی',
+            'radio'        => 'رادیو',
+            'checkbox'     => 'چک باکس',
+            'date'         => 'تاریخ',
+            'datetime'     => 'تاریخ و ساعت',
+            'relationship' => 'ارتباط',
+            'file'         => 'فایل',
+            'photo'        => 'تصویر',
+            'password'     => 'رمزعبور',
+            'money'        => 'ریالی',
             'enum'         => 'ENUM',
         ];
     }

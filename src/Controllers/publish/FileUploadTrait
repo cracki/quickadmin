@@ -39,13 +39,17 @@ trait FileUploadTrait
                         });
                     }
                     $image->save(public_path('uploads') . '/' . $filename);
-                    $request = new Request(array_merge($request->all(), [$key => $filename]));
+                    $newFiles[$key]=$filename;
                 } else {
                     $filename = time() . '-' . $request->file($key)->getClientOriginalName();
                     $request->file($key)->move(public_path('uploads'), $filename);
-                    $request = new Request(array_merge($request->all(), [$key => $filename]));
+                    $newFiles[$key]=$filename;
                 }
             }
+        }
+
+        if(isset($newFiles)){
+            $request = new Request(array_merge($request->all(), $newFiles));
         }
 
         return $request;
