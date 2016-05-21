@@ -18,7 +18,7 @@
     "intervention/image": "^2.3",
     "yajra/laravel-datatables-oracle": "~6.0",
     "morilog/jalali": "v1.0.1",
-    "bigsinoos/j-eloquent" : "dev-master"
+    "bigsinoos/j-eloquent" : "2.*"
   },
   "classmap": [
     "src/Controllers",
@@ -29,6 +29,5 @@
     "psr-4": {
       "Laraveldaily\\Quickadmin\\": "src/"
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
