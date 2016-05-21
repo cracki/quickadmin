@@ -4,6 +4,8 @@ namespace $NAMESPACE$;
 
 use Illuminate\Database\Eloquent\Model;
 use Laraveldaily\Quickadmin\Observers\UserActionsObserver;
+use Morilog\Jalali\jDate;
+
 $PASSWORDHASH_CALL$
 $DATEPICKERS_CALL$
 $SOFT_DELETE_CALL$
