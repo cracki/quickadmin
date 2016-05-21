@@ -8,7 +8,7 @@ To use Quickadmin with Laravel Laravel 5.1.11 use branch `0.4.x`
 
 ###Please note: QuickAdmin requires fresh Laravel installation
 
-1. Add "laraveldaily/quickadmin": "dev-jalali" to `composer.json`
+1. Add `"laraveldaily/quickadmin": "dev-jalali"` to `composer.json`
 2. Add `"repositories": [
         {
             "type": "vcs",
