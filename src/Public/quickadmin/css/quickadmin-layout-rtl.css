@@ -60,3 +60,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .portlet > .portlet-title > .caption {
   float: none;
 }
+.form-control {
+  font-size: 12px;
+}
+h1 {
+  font-size: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+.page-title {
+  border-bottom: 1px solid #c7c7c7;
+  font-size: 25px;
+  font-weight: 900;
+}
