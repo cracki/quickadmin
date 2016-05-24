@@ -2,10 +2,10 @@
 
 @section('content')
 
-<p>{!! link_to_route('admin.$ROUTE$.create', trans('quickadmin::templates.templates-view_index-add_new') , null, array('class' => 'btn btn-success')) !!}</p>
+<p>{!! link_to_route('admin.$ROUTE$.create', trans('quickadmin::templates.templates-view_index-add_new') , null, array('class' => 'btn btn-primary')) !!}</p>
 
 @if ($$RESOURCE$->count())
-    <div class="portlet box green">
+    <div class="portlet box blue">
         <div class="portlet-title">
             <div class="caption">{{ trans('quickadmin::templates.templates-view_index-list') }}</div>
         </div>
